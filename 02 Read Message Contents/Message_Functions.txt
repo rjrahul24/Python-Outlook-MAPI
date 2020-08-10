@@ -36,3 +36,14 @@ message.Sender.Address
 
 Only for attachment-
 .filename
+attachment.FileName
+attachment.Type
+attachment.Position
+attachment.BlockLevel
+attachment.Class
+attachment.DisplayName
+attachment.Parent
+attachment.Session
+attachment.Size
+attachment.Index
+attachment.Application
