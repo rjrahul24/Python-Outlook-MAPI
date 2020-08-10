@@ -1,0 +1,38 @@
+Below is the current functionality that I know of and some alternatives that can be used:
+
+import win32com
+outlook=win32com.client.Dispatch("Outlook.Application").GetNamespace("MAPI")
+inbox=outlook.GetDefaultFolder(6)
+messages=inbox.Items            ---------------------------1
+for message in messages:         
+    attachments = message.attachments  --------------------2,3
+    for attachment in attachments: ------------------------4
+        pass
+
+
+(1)
+inbox.Folders
+inbox.Items
+
+(2)
+message.GetFirst()
+message.GetLast()
+message.GetNext()
+message.GetPrevious()
+message.Attachments
+message -
+
+(3)
+message.Subject
+message.Body
+message.To
+message.Recipients
+message.Sender
+message.Sender.Address
+
+(4)
+.item()
+.Count
+
+Only for attachment-
+.filename

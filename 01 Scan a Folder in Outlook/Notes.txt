@@ -1,0 +1,6 @@
+The function inside this file does the following:
+
+1. It connects to the existing outlook client on the local system.
+2. Scans through the application to search all the folders.
+3. On a given condition (with a folder name) it searches for an email subject.
+4. Returns the senders and respondents within the email that has the above email subject.
