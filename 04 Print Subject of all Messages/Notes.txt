@@ -1,0 +1,5 @@
+The requirement: Iterate over an Outlook inbox, reading the subject of each message.
+
+1. Create an MAPI Session with Outlook.
+2. Iterate through every folder within Exchange.
+3. Print out all the Subjects of every message

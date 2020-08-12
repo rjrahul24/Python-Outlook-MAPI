@@ -1,0 +1,9 @@
+Reads all the folders within Outlook.
+Prints the Message Sender and content object from the exchange server for every email.
+
+1. Open a writable file.
+2. Go through every folder in Outlook and Segregate all folders.
+3. Print the message object for each item grouped by folder.
+
+NOTE: If the message content instead of the object is printed, the size of file will increase exponentially.
+Make sure to edit the folder names based on the names that exist in your outlook client
